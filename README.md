@@ -1,2 +1,2 @@
-# Engenharia_de_Requisitos_Turma_A
+# Engenharia_de_Requisitos_TurmaA
 Atividades da disciplina Engenharia de Requisitos
