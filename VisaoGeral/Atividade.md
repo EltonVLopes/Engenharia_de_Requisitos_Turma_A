@@ -34,3 +34,9 @@ Sistema de acompanhamento de alunos em uma escola
 2. Deve ser possível consultar dados de alunos cadastrados, Deve ser possível listar falta e presença dos alunos, Deve ser possível cadastrar novos alunos.
 3. Sistema deve ter tempo de resposta menor que 100 milissegundos, o sistema deve possuir firewall e garantir a segurança dos usuários.
 4. Por que se não houver o levantamento de requisitos, os desenvolvedores não saberão o que desenvolver e nem como realizar essa tarefa.
+
+
+## *Participantes desta Entrega de Atividade*
+
+- Elton Eduardo Viana Lopes
+- Rafael Cardoso de Barros
