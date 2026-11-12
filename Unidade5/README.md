@@ -49,6 +49,5 @@ Os demais conteúdos e atividades da unidade estão disponíveis em um repositó
 - 📝 Markdown
 - 🐙 GitHub
 - 📐 UML
-- 🧩 PlantUML
 - 📊 Canvas Lean
 
