@@ -329,5 +329,3 @@ Escolha uma característica da ISO/IEC 25010:2023 e produza:
 
 ---
 
-**Material de apoio ao estudante — ISO/IEC 25010:2023**
-```
