@@ -10,6 +10,8 @@
 **Profª:** Kadidja Valéria  
 **Tema:** Modelo de qualidade de produto da ISO/IEC 25010
 
+🔗 **Atividade prática complementar:** [Aplicação da ISO/IEC 25010 — Projeto FlowOps](https://github.com/gabrielmarciano-dev/sistema-de-gestao-de-projetos-agil/blob/main/Documentacao/ISO_IEC%2025010.md)
+
 ---
 
 ## 1. Apresentação
