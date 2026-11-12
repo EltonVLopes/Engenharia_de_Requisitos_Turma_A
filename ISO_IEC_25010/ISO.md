@@ -230,17 +230,17 @@ Uma mesma ocorrência pode envolver mais de uma característica. Quando isso aco
 
 ### Formulário de resposta
 
-| Ocorrência | Característica predominante | Justificativa | Requisito de qualidade | Critério de aceitação | Teste ou avaliação |
-|---:|---|---|---|---|---|
-| 1 |  |  |  |  |  |
-| 2 |  |  |  |  |  |
-| 3 |  |  |  |  |  |
-| 4 |  |  |  |  |  |
-| 5 |  |  |  |  |  |
-| 6 |  |  |  |  |  |
-| 7 |  |  |  |  |  |
-| 8 |  |  |  |  |  |
-| 9 |  |  |  |  |  |
+| Nº | Ocorrência | Característica Predominante | Justificativa | Requisito de Qualidade Mensurável | Critério de Aceitação | Teste ou Avaliação |
+|--:|---|---|---|---|---|---|
+| **1** | O cálculo da média final apresenta valores incorretos. | **Adequação funcional** | O sistema executa a função principal, mas gera resultados matematicamente incorretos. | O sistema deverá calcular a média final das disciplinas aplicando 100% das regras acadêmicas oficiais. | 0% de divergência entre a média calculada e a regra oficial em 1.000 simulações. | Testes unitários e de integração automatizados. |
+| **2** | A página de notas demora aproximadamente 12 segundos para abrir. | **Eficiência de desempenho** | O tempo de resposta de 12s degrada severeamente a experiência do usuário. | O sistema deverá exibir a página de notas em até 2 segundos sob condições normais de uso. | Tempo médio de resposta ≤ 2,0s para 95% das requisições. | Testes de desempenho e tempo de resposta via JMeter. |
+| **3** | Estudantes têm dificuldade para localizar a renovação de matrícula. | **Capacidade de interação** | A interface carece de clareza na navegabilidade e aprendizabilidade para funções críticas. | O sistema deverá permitir localizar o menu de renovação de matrícula em até 2 cliques a partir da home. | Pelo menos 90% dos usuários concluem a navegação em até 1 minuto sem auxílio. | Testes de usabilidade com observação direta de usuários. |
+| **4** | O aplicativo deixa de funcionar quando muitos usuários acessam simultaneamente. | **Confiabilidade** (e Eficiência de Desempenho) | O sistema perde a disponibilidade e colapsa sob carga de acessos concorrentes. | O sistema deverá manter a operação normal suportando até 5.000 usuários simultâneos no período de matrículas. | Taxa de erro HTTP 5xx < 0,1% durante o pico simulação de carga. | Teste de estresse e capacidade (*Stress Testing*). |
+| **5** | Um estudante conseguiu visualizar o histórico de outro usuário. | **Segurança** | Ocorre violação crítica de confidencialidade e falha grave no controle de acesso (IDOR). | O sistema deverá restringir a exibição do histórico acadêmico exclusivamente ao estudante dono da conta. | Zero ocorrências de acesso cruzado a dados de terceiros em testes de bypass de autorização. | Análise SAST, DAST e Teste de Penetração (*Pentest*). |
+| **6** | Uma pequena alteração no cadastro provocou falhas em outros módulos. | **Manutenibilidade** | Acoplamento excessivo do código faz com que mudanças locais gerem efeitos colaterais indesejados. | O sistema deverá possuir arquitetura modular com componentes desacoplados. | 100% de aprovação na suíte de testes de regressão após alterações no módulo de cadastro. | Testes de regressão automatizados e análise estática de código (SonarQube). |
+| **7** | O aplicativo não consegue importar informações do sistema financeiro. | **Compatibilidade** | O software é incapaz de realizar troca de dados e interoperar com sistemas legados/externos. | O sistema deverá comunicar-se com o sistema financeiro via API RESTful para sincronização contínua de dados. | Taxa de sucesso na importação e sincronização de dados ≥ 99,9%. | Testes de integração de API e validação de payload JSON/XML. |
+| **8** | A implantação em um novo servidor exige diversas alterações manuais. | **Flexibilidade** (Instalabilidade / Adaptabilidade) | Alta complexidade de implantação e dependência de procedimentos manuais sujeitos a erro humano. | O sistema deverá permitir sua implantação automatizada via contêineres Docker em qualquer servidor homologado. | Implantação 100% concluída via pipeline CI/CD sem necessidade de passos manuais. | Teste de implantação (*Deployment Test*) automatizado. |
+| **9** | Em funcionalidade de laboratório, equipamento é acionado mesmo com sensor informando condição insegura. | **Proteção contra riscos (*Safety*)** | Falha grave de segurança operacional que pode acarretar danos físicos a pessoas, patrimônio ou ambiente. | O sistema deverá interromper e bloquear o acionamento de equipamentos quando o sensor registrar estado inseguro. | 100% de bloqueios efetivos do acionamento em simulações de sinal de alerta dos sensores. | Testes de segurança operacional (*Safety Testing*) e simulação de sinais de erro de hardware. |
 
 ## 9. Análise de conflitos de qualidade
 
@@ -328,3 +328,4 @@ Escolha uma característica da ISO/IEC 25010:2023 e produza:
 ---
 
 **Material de apoio ao estudante — ISO/IEC 25010:2023**
+```
