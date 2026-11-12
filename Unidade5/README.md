@@ -36,7 +36,7 @@ Durante a atividade, foram desenvolvidos:
 
 A atividade também abordou aspectos de acessibilidade, considerando recursos como navegação por teclado, narração de conteúdo, contraste visual e configuração de recursos de acessibilidade.
 
-📄 [Acessar documento da atividade U.C. Battle](./U.C%20Battle.pdf)
+📁 [Acessar pasta da atividade U.C. Battle](./UC_Battle)
 
 ### Materiais Complementares
 
