@@ -86,7 +86,7 @@ Esses projetos complementam o percurso de aprendizagem da disciplina, conectando
 ↓  
 📐 **Modelagem de Sistemas**  
 ↓  
-<badge color="success">Concluído</badge> **Finalização das atividades e dos conteúdos da disciplina**
+✅ **Disciplina concluída — atividades e conteúdos finalizados.**
 
 ## 👨‍💻 Autor
 
