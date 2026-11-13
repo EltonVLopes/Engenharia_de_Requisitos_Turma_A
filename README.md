@@ -25,12 +25,12 @@ Os arquivos estão organizados em pastas, permitindo consultar os assuntos abord
 
 | Unidade | Conteúdos |
 |---|---|
-| [📖 Visão Geral](./VisaoGeral) | Introdução à Engenharia de Requisitos e conceitos fundamentais |
-| [📘 Unidade 2](./Unidade2) | BABOK, CBook e simulação de projeto |
-| [📗 Unidade 3](./Unidade3) | Engenharia de Requisitos aplicada à Clínica Vida+ Saúde |
-| [📙 Unidade 4](./Unidade4) | Priorização MoSCoW, requisitos funcionais e não funcionais e qualidade de software |
-| [📋 ISO/IEC 25010](./ISO_IEC_25010) | Características e modelo de qualidade de produto de software |
-| [📐 Unidade 5](./Unidade5) | Elicitação de Requisitos e Modelagem de Sistemas |
+| [ Visão Geral](./VisaoGeral) | Introdução à Engenharia de Requisitos e conceitos fundamentais |
+| [ Unidade 2](./Unidade2) | BABOK, CBook e simulação de projeto |
+| [ Unidade 3](./Unidade3) | Engenharia de Requisitos aplicada à Clínica Vida+ Saúde |
+| [ Unidade 4](./Unidade4) | Priorização MoSCoW, requisitos funcionais e não funcionais e qualidade de software |
+| [ ISO/IEC 25010](./ISO_IEC_25010) | Características e modelo de qualidade de produto de software |
+| [ Unidade 5](./Unidade5) | Elicitação de Requisitos e Modelagem de Sistemas |
 
 ## 🔗 Repositórios externos e conexões com as unidades
 
